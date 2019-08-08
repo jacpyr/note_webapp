@@ -1,0 +1,209 @@
+html{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif, serif;
+    overflow: auto;
+    
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    }
+
+
+#title_bar{
+    padding-bottom: 1vh;
+    width: 100%;
+    height: 10%;
+    padding-left: 6%;
+    font-family: 'Ma Shan Zheng',cursive, sans-serif;
+    font-size: 10vh;
+    font-weight: 900;
+}
+
+#add_button{
+    border:0;
+    float: right;
+    width: 10%;
+    height: 80%;
+    right: 0;
+    padding: 0;
+    border-radius: 2px;
+    background: inherit;
+    
+
+}
+.add_button_wrapper{
+    width: 20%;
+    
+}
+
+.add_img{
+    height: 80%;
+    width: 60%;
+    margin-left:15% 
+}
+
+#add_button:hover img{
+    filter: drop-shadow(2px 2px 5px #222);
+}
+
+#search_box{
+    width: 80%;
+    border-radius: 2vh;
+    border: 1px solid #aaaaaa;
+    background: transparent url(./images/searchfield@2x.png) no-repeat 3px 50%;
+    background-size: 2.5vh 2.5vh;
+    padding: 0 0 0 4vh;
+    margin-top:0.75%;
+}
+
+.note_heading{
+    min-height: 1em;
+    padding: 0 0 0 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1em;
+    font-weight: bold;
+    
+}
+
+.note_content{
+    min-height: 1em;
+    padding: 0 0 0 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1em;
+    color:#999;
+    
+}
+.note_summary{
+    padding: .5em 0 .5em 0;
+    
+    width: 100%;
+    overflow: hidden;
+    background-color:#FFF;
+    
+}
+
+.note_summary:hover{
+    background: #fafafa;
+}
+li .note_wrapper{
+    float: left;
+    width:85%;
+}
+li .button_wrapper{
+    float: right;
+    width: 14%;
+    height: 2em;
+    
+}
+
+.button_wrapper.delete_button{
+    position: absolute;
+    right:0;
+    
+}
+.delete_button{
+    
+    right: 0;
+    padding: 0;
+    border-radius: 2px;
+    border: 0;
+    background: inherit;
+}
+.delete_img{
+    margin-top:15%;
+    height: 60%;
+    width: 60%;
+}
+
+
+
+.delete_button:hover img{
+    filter: drop-shadow(2px 2px 5px #222);
+}
+
+#content{
+    height: 80%;
+    width: 99%;
+    margin-left: 0.5%;
+    outline: 1px solid #999;
+    outline-offset: -1px; 
+}
+
+.left-content{
+    float: left;
+    width: 25%;
+    outline-offset: -1px;
+    outline: 1px solid #999;
+    margin: 0;    
+    padding: 0 0 .5% 0;
+    height: 98.5%;
+}
+
+.header_bar{
+    height: 6.5%;
+    padding: 1.5% 6% 0 5%;
+    outline: 1px solid #999;
+    outline-offset: -1px ;
+}
+
+#list_side_bar{
+    overflow: auto;
+    height: 90%;
+    
+}
+
+#note_list{
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    
+}
+
+.right-content{
+    padding-right: 1%;
+    float: right;
+    width: 72%;
+    margin: 0;
+    height: 100%;
+}
+
+#static_content{
+    text-align: center;
+    width: 100%;
+    padding-top: 20%;
+    font-size: 7vh;
+    color: #aaaaaa;
+}
+
+#note_content{
+    
+    padding-left: 3%;
+    margin-top: 2%;
+    width: 100%;
+    height: 91%;
+    display: inline-flex;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif, serif;
+    border:none;
+    resize: none;
+}
+
+#static_content{
+    display:none;
+}
+
+#footer{
+    height: 6%;
+    padding: 1% 0 0 2%;
+    
+
+}

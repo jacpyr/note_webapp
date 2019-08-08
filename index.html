@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Simple Note App 1.0</title>
+        <link rel='stylesheet' type="text/css" href="./css/main.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="./notes_app.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title_bar">
+            Notes v1.0
+        </div>
+        <div id="content">
+            <div class="left-content">
+                <div class="header_bar">
+                    <input id="search_box" placeholder="search" type="search">
+                    <span class="add_button_wrapper">
+                    <button id='add_button' onclick="addNote()"><img class="add_img" src="./css/images/add_button.png"></button>
+                </span>
+                </div>
+                <div id="list_side_bar">
+                <ol id="note_list">
+                    <!--
+                        <li class='note_summary'>
+                                <div class='note_wrapper'>
+                                    <div class='note_heading'>Note 1</div>
+                                    <div class='note_content'> This is the content</div>
+                                </div>
+                                <div class='button_wrapper'>
+                                    <button class='delete_button'> Del </button>
+                                </div>
+                        </li>-->
+                </ol>
+            </div>
+            </div>
+            <div class="right-content">
+                
+                <div id="static_content"> Click + to Add New Note </div>
+                <textarea id="note_content" placeholder="Enter your text here" oninput="changeContent()"></textarea>
+            </div>
+        </div>
+
+        <div id='footer'>
+            &copy; 2019 Contact: <a href="mailto:anandharaj90@gmail.com"> anandharaj90@gmail.com </a>
+        </div>
+    </body>
+        
+</html>
